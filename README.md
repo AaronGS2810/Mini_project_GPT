@@ -1,4 +1,6 @@
-Lo bueno seria instalar ollama con instalacion_olama.sh
+Lo bueno seria instalar ollama con instalacion_olama.py (Habria que poner el codigo en bash)
+
+Luego ejecutar asistente_ollama.py
 
 
 
