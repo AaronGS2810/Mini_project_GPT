@@ -1,0 +1,17 @@
+import json
+
+def contar_mkdir_en_json(archivo_json):
+    with open(archivo_json, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Convertimos todo a texto para buscar "mkdir"
+    texto = json.dumps(data)
+
+    # Contamos cuántas veces aparece 'mkdir'
+    conteo = texto.count("ls")
+
+    print(f"La palabra '' aparece {conteo} veces.")
+
+# Reemplaza con la ruta de tu archivo
+ruta_archivo = 'complex_linux_commands_million.json'
+contar_mkdir_en_json(ruta_archivo)
